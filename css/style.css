@@ -1,0 +1,94 @@
+body{
+    color : rgba(255, 255, 255, 0.7);
+    background-color: #5E42A6;
+    font-size: 1.6em;
+}
+#blocPrincipal{
+    background-image: url("images/fond.png");
+    background-repeat: no-repeat;
+    background-size: 84% 100%;
+    background-attachment: fixed;
+    background-position: top right;
+}
+#sidebar{
+    background-color: #312450;
+}
+
+#presentation{
+    background-color: #5E42A6;
+}
+#competences{
+    background-color: #B74E91;
+}
+#projets{
+    background-color: #4C4EAC;
+}
+.lienExterne{
+    border-bottom: dotted 1px rgba(255, 255, 255, 0.55);
+    color: rgba(255, 255, 255, 0.7);
+}
+ul, li{
+    list-style-type:none;
+}
+#sidebar a{
+    color: rgba(255, 255, 255, 0.55);
+    border-bottom: solid 2px rgba(255, 255, 255, 0.55);
+    font-size: 0.75em;
+}
+#sidebar a:hover, svg:hover, .lienExterne:hover{
+    color: #fff;
+}
+#contact{
+    border-left: solid 1px rgba(255, 255, 255, 0.55);
+}
+.btnPerso{
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+}
+.iconeCompetence{
+    width: 120px;
+    height: 120px;
+}
+.iconeUtile{
+    width: 80px;
+    height: 80px;
+}
+.btnPerso:hover{
+    color:#fff;
+    box-shadow: #fff 0px 0px 4px;
+}
+h1{
+    font-size:1.75em;
+}
+h2{
+    font-size:1.7em;
+}
+h3{
+    font-size:1.4em;
+}
+svg{
+    color : rgba(255, 255, 255, 0.7);
+    width : 40px;
+}
+.projet{
+    background: rgb(80,82,181);
+    background: linear-gradient(0deg, rgba(80,82,181,1) 20%, rgba(62,64,148,0.1) 100%);
+}
+.btnAccueil{
+    background-color: #5E42A6;
+}
+.btnProjet{
+    background-color: #3e4094;
+}
+@media (max-width: 991px) {
+    #contact{
+        border-top: solid 5px rgba(255, 255, 255, 0.55);
+        border-left:0;
+        padding-top: 80px;
+        margin-top: 60px;
+    }
+
+    #blocPrincipal{
+        background-size: 100% 100%;
+    }
+}
