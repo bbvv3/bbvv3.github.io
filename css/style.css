@@ -98,3 +98,6 @@ svg{
 #projets section{
     min-height: 450px;
 }
+a.nav-link {
+    font-weight: 600;
+}
