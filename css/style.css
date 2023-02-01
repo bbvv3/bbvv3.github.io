@@ -101,3 +101,7 @@ svg{
 a.nav-link {
     font-weight: 600;
 }
+.mobile-picture{
+    object-fit: contain;
+    max-height: 450px;
+}
